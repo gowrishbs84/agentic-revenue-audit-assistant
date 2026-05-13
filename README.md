@@ -95,6 +95,55 @@ Adjustment Posting
 
 ![Agentic Workflow Diagram](architecture/agentic-workflow-diagram.png)
 
+## Application Screenshots
+
+### Reconciliation Workflow
+
+The AI agent reconciles SDS and CMP eCash data using deterministic reconciliation tools.
+
+![Reconciliation Workflow](assets/reconciliation-screen.png)
+
+---
+
+### LLM Tool Calling
+
+The LLM agent dynamically selects tools based on auditor intent.
+
+Example tools:
+- reconcile_ecash
+- retrieve_sop
+- show_adjustment_module
+
+![LLM Tool Calling](assets/tool-calling-screen.png)
+
+---
+
+### AI Audit Recommendation
+
+The AI assistant retrieves SOP guidance and generates governance-aware audit recommendations.
+
+![AI Audit Recommendation](assets/ai-recommendation-screen.png)
+
+---
+
+### Human Approval Adjustment Workflow
+
+The adjustment workflow supports:
+- human approval
+- adjustment reason capture
+- CMP adjustment validation
+- governance enforcement
+
+![Adjustment Module](assets/adjustment-module-screen.png)
+
+---
+
+### Secondary Approval Governance
+
+Adjustments greater than $100 require secondary approver validation before posting.
+
+![Approval Workflow](assets/approval-workflow-screen.png)
+
 ## Agentic Workflow Design
 
 Unlike traditional AI-assisted workflows where Python controls the execution sequence, this project demonstrates:
