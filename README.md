@@ -104,7 +104,7 @@ Adjustment Posting
 
 The AI agent reconciles SDS and CMP eCash data using deterministic reconciliation tools.
 
-![Reconciliation Workflow](assets/reconciliation-screen.png)
+![Reconciliation Workflow](assets/reconciliation-screen1.png)
 
 ---
 
@@ -117,7 +117,7 @@ Example tools:
 - retrieve_sop
 - show_adjustment_module
 
-![LLM Tool Calling](assets/tool-calling-screen.png)
+![LLM Tool Calling](assets/tool-calling-screen1.png)
 
 ---
 
@@ -125,7 +125,7 @@ Example tools:
 
 The AI assistant retrieves SOP guidance and generates governance-aware audit recommendations.
 
-![AI Audit Recommendation](assets/ai-recommendation-screen.png)
+![AI Audit Recommendation](assets/ai-recommendation-screen1.png)
 
 ---
 
@@ -137,7 +137,7 @@ The adjustment workflow supports:
 - CMP adjustment validation
 - governance enforcement
 
-![Adjustment Module](assets/adjustment-module-screen.png)
+![Adjustment Module](assets/adjustment-module-screen1.png)
 
 ---
 
@@ -145,7 +145,7 @@ The adjustment workflow supports:
 
 Adjustments greater than $100 require secondary approver validation before posting.
 
-![Approval Workflow](assets/approval-workflow-screen.png)
+![Approval Workflow](assets/approval-workflow-screen1.png)
 
 ## Agentic Workflow Design
 
