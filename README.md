@@ -16,6 +16,9 @@ The AI agent interprets auditor requests, determines which tools to execute, ret
 This project simulates how enterprise AI systems orchestrate workflows while maintaining financial controls and human approval requirements.
 
 ---
+## Live Demo
+
+[Streamlit Live Application](https://agentic-revenue-audit-assistant-7qhnxk5tmkh3ba7igwgfmq.streamlit.app/)
 
 ## Business Problem
 
