@@ -1,0 +1,32 @@
+eCash Audit SOP
+
+SDS and CMP eCash data must be reconciled by slot_location and gamingdt.
+
+If values match, the record is reconciled.
+
+If eCash In or eCash Out variance is detected, the variance must be reviewed by a revenue audit user.
+
+The auditor must review the reconciliation report before approving any adjustment.
+
+CMP adjustments may be approved only when SDS is validated as the source of truth and CMP variance is confirmed as a posting delay, missing update, or synchronization issue.
+
+All approved adjustments must include adjustment reason, validation status, committed user, and timestamp.
+
+If adjusted CMP values do not match SDS values, the adjustment must not be committed.
+
+The LLM should not calculate financial totals independently. Reconciliation calculations must be performed by deterministic tools.
+
+The LLM may provide recommendations only using reconciliation output and SOP guidance.
+
+High-Value Adjustment Approval Requirement
+
+If any CMP adjustment value exceeds +$100 or -$100, the adjustment requires secondary approval.
+
+For high-value adjustments, the system must capture:
+- secondary approver name
+- approval reason
+- validation status
+- committed user
+- timestamp
+
+The adjustment must not be committed unless secondary approval details are provided.
